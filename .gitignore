@@ -1,0 +1,8 @@
+.github
+.history
+Backend/.vs
+Backend/Src/bin
+Backend/Src/obj
+Backend/Src/appsettings.Production.json
+Frontend/dist
+Frontend/node_modules

@@ -1,0 +1,22 @@
+:root {
+	--custom-background-color: #6a11cb;
+}
+
+body {
+	background: var(--custom-background-color);
+	background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+.indicators {
+	margin: 0;
+	padding: 0;
+}
+
+.indicator.active {
+	background: var(--custom-background-color);
+}
